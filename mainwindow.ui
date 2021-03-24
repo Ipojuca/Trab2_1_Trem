@@ -23,8 +23,11 @@
       <height>20</height>
      </rect>
     </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: red}</string>
+     <string notr="true">QLabel { background: rgb(114, 159, 207)}</string>
     </property>
     <property name="text">
      <string>T1</string>
@@ -52,7 +55,7 @@
    <widget class="QLabel" name="label_trilho2">
     <property name="geometry">
      <rect>
-      <x>145</x>
+      <x>140</x>
       <y>270</y>
       <width>210</width>
       <height>20</height>
@@ -68,7 +71,7 @@
    <widget class="QLabel" name="label_trilho3">
     <property name="geometry">
      <rect>
-      <x>355</x>
+      <x>350</x>
       <y>170</y>
       <width>21</width>
       <height>120</height>
@@ -158,7 +161,7 @@
    <widget class="QLabel" name="label_trilho2_2">
     <property name="geometry">
      <rect>
-      <x>375</x>
+      <x>370</x>
       <y>270</y>
       <width>210</width>
       <height>20</height>
@@ -289,7 +292,7 @@
    <widget class="QLabel" name="label_trilho3_4">
     <property name="geometry">
      <rect>
-      <x>125</x>
+      <x>120</x>
       <y>170</y>
       <width>21</width>
       <height>120</height>
@@ -305,7 +308,7 @@
    <widget class="QLabel" name="label_trilho3_5">
     <property name="geometry">
      <rect>
-      <x>585</x>
+      <x>580</x>
       <y>170</y>
       <width>21</width>
       <height>120</height>
@@ -328,7 +331,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: red}</string>
+     <string notr="true">QLabel { background: rgb(138, 226, 52)}</string>
     </property>
     <property name="text">
      <string>T3</string>
@@ -340,14 +343,14 @@
    <widget class="QLabel" name="label_trem4">
     <property name="geometry">
      <rect>
-      <x>125</x>
+      <x>120</x>
       <y>150</y>
       <width>21</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: red}</string>
+     <string notr="true">QLabel { background: rgb(173, 127, 168)}</string>
     </property>
     <property name="text">
      <string>T4</string>
@@ -359,14 +362,14 @@
    <widget class="QLabel" name="label_trem5">
     <property name="geometry">
      <rect>
-      <x>355</x>
+      <x>350</x>
       <y>150</y>
       <width>21</width>
       <height>20</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLabel { background: red}</string>
+     <string notr="true">QLabel { background: rgb(252, 175, 62)}</string>
     </property>
     <property name="text">
      <string>T5</string>
@@ -384,6 +387,9 @@
       <height>16</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::handle:horizontal {background: rgb(114, 159, 207)}</string>
+    </property>
     <property name="minimum">
      <number>0</number>
     </property>
@@ -394,7 +400,7 @@
      <number>100</number>
     </property>
     <property name="value">
-     <number>1000</number>
+     <number>500</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
@@ -418,6 +424,9 @@
       <height>16</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::handle:horizontal {background: red}</string>
+    </property>
     <property name="minimum">
      <number>0</number>
     </property>
@@ -428,7 +437,7 @@
      <number>100</number>
     </property>
     <property name="value">
-     <number>1000</number>
+     <number>500</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
@@ -452,6 +461,12 @@
       <height>16</height>
      </rect>
     </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::handle:horizontal {background: rgb(138, 226, 52)}</string>
+    </property>
     <property name="minimum">
      <number>0</number>
     </property>
@@ -462,7 +477,7 @@
      <number>100</number>
     </property>
     <property name="value">
-     <number>1000</number>
+     <number>500</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
@@ -486,6 +501,9 @@
       <height>16</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::handle:horizontal {background: rgb(173, 127, 168)}</string>
+    </property>
     <property name="minimum">
      <number>0</number>
     </property>
@@ -496,7 +514,7 @@
      <number>100</number>
     </property>
     <property name="value">
-     <number>1000</number>
+     <number>500</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
@@ -520,6 +538,9 @@
       <height>16</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QSlider::handle:horizontal {background: rgb(252, 175, 62)}</string>
+    </property>
     <property name="minimum">
      <number>0</number>
     </property>
@@ -530,7 +551,7 @@
      <number>100</number>
     </property>
     <property name="value">
-     <number>1000</number>
+     <number>500</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>

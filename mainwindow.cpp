@@ -7,13 +7,16 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
+
     //Cria o trem com seu (ID, posição X, posição Y)
     trem1 = new Trem(1, 10, 30);
     trem2 = new Trem(2,240, 30);
 
     trem3 = new Trem(3,470, 30);
-    trem4 = new Trem(4,125,150);
-    trem5 = new Trem(5,355,150);
+    trem4 = new Trem(4,120,150);
+    trem5 = new Trem(5,350,150);
+
+    trem1->InicializarTrilhos();
 
 
     /*
@@ -70,7 +73,7 @@ void MainWindow::on_pushButton_clicked()
     trem2->start();
     trem3->start();
     trem4->start();
-    trem5->start();
+//    trem5->start();
 }
 
 /*

@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include "trem.h"
+#include "trilho.h"
 
 namespace Ui {
 class MainWindow;
@@ -15,6 +16,8 @@ class MainWindow : public QMainWindow
 public:
     explicit MainWindow(QWidget *parent = 0);
     ~MainWindow();
+
+
 
 
 public slots:

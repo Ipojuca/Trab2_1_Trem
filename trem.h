@@ -2,7 +2,10 @@
 #define TREM_H
 
 #include <QThread>
+#include "trilho.h"
 
+#define NORMAL 0
+#define CRITICAL 1
 /*
  * Classe Trem herda QThread
  * Classe Trem passa a ser uma thread.
@@ -16,6 +19,10 @@ public:
     Trem(int,int,int);  //construtor
     void run();         //função a ser executada pela thread
     void AjustarVelocidade(int);
+    void InicializarTrilhos();
+    void verTrilho();
+    void bloqTrilho(); //bloquear trilho
+    void libTrilho();  //liberar trilho
 
 
 //Cria um sinal
@@ -32,6 +39,7 @@ private:
    int ID;          //ID do trem
    int velocidade;  //Velocidade. É o tempo de dormir em milisegundos entre a mudança de posição do trem
    bool ligado;
+
 };
 
 #endif // TREM_H
