@@ -23,6 +23,8 @@ public:
     void verTrilho();
     void bloqTrilho(); //bloquear trilho
     void libTrilho();  //liberar trilho
+    int x;           //posição X do trem na tela
+    int y;           //posição Y do trem na tela
 
 
 //Cria um sinal
@@ -30,8 +32,6 @@ signals:
     void updateGUI(int,int,int);
 
 private:
-   int x;           //posição X do trem na tela
-   int y;           //posição Y do trem na tela
    int xMin;        //posição mínima do x
    int yMin;        //posição mínima do y
    int xMax;        //posição Máxima do X

@@ -18,6 +18,21 @@ MainWindow::MainWindow(QWidget *parent) :
 
     trem1->InicializarTrilhos();
 
+    trem1->x = ui->label_trem1->geometry().x();
+    trem1->y = ui->label_trem1->geometry().y();
+
+    trem2->x = ui->label_trem2->geometry().x();
+    trem2->y = ui->label_trem2->geometry().y();
+
+    trem3->x = ui->label_trem3->geometry().x();
+    trem3->y = ui->label_trem3->geometry().y();
+
+    trem4->x = ui->label_trem4->geometry().x();
+    trem4->y = ui->label_trem4->geometry().y();
+
+    trem5->x = ui->label_trem5->geometry().x();
+    trem5->y = ui->label_trem5->geometry().y();
+
 
     /*
      * Conecta o sinal UPDATEGUI à função UPDATEINTERFACE.
@@ -73,7 +88,7 @@ void MainWindow::on_pushButton_clicked()
     trem2->start();
     trem3->start();
     trem4->start();
-//    trem5->start();
+    trem5->start();
 }
 
 /*
