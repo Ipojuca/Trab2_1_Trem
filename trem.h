@@ -20,7 +20,6 @@ public:
     void run();         //função a ser executada pela thread
     void AjustarVelocidade(int);
     void InicializarTrilhos();
-    void verTrilho();
     void bloqTrilho(); //bloquear trilho
     void libTrilho();  //liberar trilho
     int x;           //posição X do trem na tela
