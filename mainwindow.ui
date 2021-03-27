@@ -394,13 +394,13 @@
      <number>0</number>
     </property>
     <property name="maximum">
-     <number>1000</number>
+     <number>100</number>
     </property>
     <property name="pageStep">
      <number>100</number>
     </property>
     <property name="value">
-     <number>500</number>
+     <number>100</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
@@ -410,6 +410,9 @@
     </property>
     <property name="invertedControls">
      <bool>false</bool>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TicksBelow</enum>
     </property>
     <property name="tickInterval">
      <number>10</number>
@@ -431,13 +434,13 @@
      <number>0</number>
     </property>
     <property name="maximum">
-     <number>1000</number>
+     <number>100</number>
     </property>
     <property name="pageStep">
      <number>100</number>
     </property>
     <property name="value">
-     <number>500</number>
+     <number>50</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
@@ -447,6 +450,9 @@
     </property>
     <property name="invertedControls">
      <bool>false</bool>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TicksBelow</enum>
     </property>
     <property name="tickInterval">
      <number>10</number>
@@ -471,13 +477,13 @@
      <number>0</number>
     </property>
     <property name="maximum">
-     <number>1000</number>
-    </property>
-    <property name="pageStep">
      <number>100</number>
     </property>
+    <property name="pageStep">
+     <number>10</number>
+    </property>
     <property name="value">
-     <number>500</number>
+     <number>50</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
@@ -487,6 +493,9 @@
     </property>
     <property name="invertedControls">
      <bool>false</bool>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TicksBelow</enum>
     </property>
     <property name="tickInterval">
      <number>10</number>
@@ -508,13 +517,13 @@
      <number>0</number>
     </property>
     <property name="maximum">
-     <number>1000</number>
-    </property>
-    <property name="pageStep">
      <number>100</number>
     </property>
+    <property name="pageStep">
+     <number>10</number>
+    </property>
     <property name="value">
-     <number>500</number>
+     <number>50</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
@@ -524,6 +533,9 @@
     </property>
     <property name="invertedControls">
      <bool>false</bool>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TicksBelow</enum>
     </property>
     <property name="tickInterval">
      <number>10</number>
@@ -545,13 +557,13 @@
      <number>0</number>
     </property>
     <property name="maximum">
-     <number>1000</number>
-    </property>
-    <property name="pageStep">
      <number>100</number>
     </property>
+    <property name="pageStep">
+     <number>10</number>
+    </property>
     <property name="value">
-     <number>500</number>
+     <number>50</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
@@ -561,6 +573,9 @@
     </property>
     <property name="invertedControls">
      <bool>false</bool>
+    </property>
+    <property name="tickPosition">
+     <enum>QSlider::TicksBelow</enum>
     </property>
     <property name="tickInterval">
      <number>10</number>

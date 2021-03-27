@@ -37,7 +37,7 @@ private:
    int yMax;        //posicao Máxima do Y
    int ID;          //ID do trem
    int velocidade;  //Velocidade. É o tempo de dormir em milisegundos entre a mudança de posição do trem
-   bool ligado;
+   int incremento;  // usado para parar o trem quando velocidade igual zero
 
 };
 
