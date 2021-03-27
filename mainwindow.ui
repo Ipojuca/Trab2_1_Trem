@@ -397,10 +397,10 @@
      <number>100</number>
     </property>
     <property name="pageStep">
-     <number>100</number>
+     <number>10</number>
     </property>
     <property name="value">
-     <number>100</number>
+     <number>50</number>
     </property>
     <property name="orientation">
      <enum>Qt::Horizontal</enum>
